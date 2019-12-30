@@ -1,0 +1,45 @@
+name: graduados
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  flutter_svg: ^0.14.4
+  keyboard_visibility: ^0.5.6
+  intl: ^0.16.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/svg/intro.svg
+    - assets/img/absa.png
+    - assets/img/Absa_Logo_White.png
+    - assets/img/gestures/agile.png
+    - assets/img/gestures/agile2.png
+    - assets/img/gestures/luxury.png
+    - assets/img/gestures/luxury2.png
+    - assets/img/gestures/prepared.png
+    - assets/img/gestures/prepared2.png
+  # example:
+  fonts:
+    - family: Brave
+      fonts:
+        - asset: fonts/BraveSans-Bold.ttf
+        - asset: fonts/BraveSans-BoldItalic.ttf
+        - asset: fonts/BraveSans-ExtraBold.ttf
+        - asset: fonts/BraveSans-ExtraBoldItalic.ttf
+        - asset: fonts/BraveSans-Italic.ttf
+        - asset: fonts/BraveSans-Light.ttf
+        - asset: fonts/BraveSans-LightItalic.ttf
+        - asset: fonts/BraveSans-Medium.ttf
+        - asset: fonts/BraveSans-MediumItalic.ttf
+        - asset: fonts/BraveSans-Regular.ttf
